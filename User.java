@@ -39,7 +39,7 @@ public class User {
         }else{
             System.out.println(name + " Borrowed books: ");
             for (Book book : borrowedBooks){
-                System.out.println(" - " + book.getTitle());
+                System.out.println(" - " + book.getTitle() + " by " + book.getAuthor());
             }
         }
     }
